@@ -2,7 +2,7 @@ pipeline {
         agent any
 
         stages {
-                tage('Preparar entorno') {
+                stage('Preparar entorno') {
             steps {
                 echo "Creando entorno virtual..."
                 bat '"C:\\Users\\nilto\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m venv venv'
